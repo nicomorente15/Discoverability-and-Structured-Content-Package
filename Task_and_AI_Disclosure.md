@@ -57,7 +57,6 @@
 - Descriptions: kept concise (90–160 characters), action- or task-oriented, and unique per page.
 
 
-
 ## 3. Semantic Headings & Crawlable Links
 - Page structure: each page uses a single primary `H1` that reflects the page purpose an example is a homepage hero, about story, events listing, etc. Secondary sections use `H2` headings for major tasks or content groups and `H3` for finer-grained subsections so heading hierarchy maps to user tasks.
 
@@ -81,7 +80,7 @@
 
 
 ## 5. Social Metadata (example for shareable page: homepage)
-- Add Open Graph metadata for Facebook (and other platforms that respect `og:`) to `<head>` on the page you expect to share. Replace domain and image URL with production values. Example:
+Social metadata:
 
 ```html
 <meta property="og:site_name" content="Rooted Together" />
@@ -170,16 +169,12 @@ Validation: the Event JSON‑LD was validated, see `screenshots/JSON-ID_validato
   - Ensure each derivative exists in `Images/` and that HTML `srcset` values point to accurate files.
   - For `og:image`, prefer the 1200×630 or similar 1.91:1 aspect ratio for best FB preview, if you keep the current 3:2 images, also provide `og:image:width` and `og:image:height` meta tags.
 
-- Example `og:image` width/height tags to add (replace with actual px if different):
+- Example `og:image` width/height tags to add:
   ```html
   <meta property="og:image" content="https://rootedtogether.org/Images/Hero-1200.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="800" />
   ```
-
-- Implementation notes:
-  - The repo's HTML already includes `alt` and `width`/`height` attributes for the homepage hero, `cactusPots`, and `birdHouse` images - good progress.
-  - Action item: add or export the image derivative files into the `Images/` folder with the exact filenames listed above (if not already present), and add the `og:image:width`/`og:image:height` tags to the pages used for social sharing (homepage and About/Resources if desired).
 
 
 ## 8. Validation Evidence (checks performed)
@@ -206,6 +201,7 @@ Evidence:
 
 ## 9. Ranking-Claim Limits (what we WILL NOT claim)
 - Guaranteed top rankings: We will not claim the site will appear on page one for specific keywords-search ranking depends on many factors beyond on‑page metadata (competition, domain history, backlinks).
+
 - CTR/conversion guarantees: We will not promise specific click-through or donation/volunteer conversion rates from metadata changes alone-these require A/B testing and traffic data.
 
 
