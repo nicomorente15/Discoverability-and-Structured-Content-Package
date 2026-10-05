@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <title>Rooted Together logo</title>
+  <desc>Stylized letters forming the Rooted Together wordmark; decorative mark representing community gardening and connection.</desc>
+  <!-- Generator: Adobe Illustrator 30.8.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 1)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3 {
+        font-family: AircoStd-BoldItalic, 'Airco Std';
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      .st0, .st2 {
+        font-size: 522.7px;
+      }
+
+      .st0, .st3 {
+        fill: #8c895a;
+      }
+
+      .st1, .st2 {
+        fill: #0e352e;
+      }
+
+      .st1, .st3 {
+        font-size: 237.99px;
+      }
+    </style>
+  </defs>
+  <text class="st0" transform="translate(39.06 383.08) scale(.98 1)"><tspan x="0" y="0">R</tspan></text>
+  <text class="st3" transform="translate(361.99 481.92) scale(.98 1)"><tspan x="0" y="0">t</tspan></text>
+  <text class="st2" transform="translate(29.1 375.35) scale(.98 1)"><tspan x="0" y="0">R</tspan></text>
+  <text class="st1" transform="translate(352.04 474.19) scale(.98 1)"><tspan x="0" y="0">t</tspan></text>
+</svg>
